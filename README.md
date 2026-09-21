@@ -2,7 +2,7 @@
 
 **STM32 pump and valve control for a multi-chamber neck-support prototype**
 
-[中文说明](README.zh-CN.md) · [Demo videos](#demo-videos) · [Firmware](9-4%20串口收发文本数据包/User/main.c)
+[中文说明](README.zh-CN.md) · [Watch the demos](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/) · [Firmware](9-4%20串口收发文本数据包/User/main.c)
 
 My 2024 undergraduate capstone at **Shenzhen University**. This project brings together an inflatable soft structure, an STM32 controller, pumps and solenoid valves, pressure sensing, and a mobile control interface.
 
@@ -10,12 +10,12 @@ My 2024 undergraduate capstone at **Shenzhen University**. This project brings t
 
 <table>
   <tr>
-    <td align="center"><a href="docs/assets/pneumatic-demo.mp4"><img src="docs/assets/pneumatic-preview.gif" width="270" alt="Original bench demonstration of the pneumatic soft robot"></a></td>
-    <td align="center"><a href="docs/assets/app-control-demo.mp4"><img src="docs/assets/app-control.jpg" width="270" alt="Mobile control interface shown in the graduation demonstration"></a></td>
+    <td align="center"><a href="https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#pneumatic-demo"><img src="docs/assets/pneumatic-preview.gif" width="270" alt="Original bench demonstration of the pneumatic soft robot"></a></td>
+    <td align="center"><a href="https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#app-control-demo"><img src="docs/assets/app-control.jpg" width="270" alt="Mobile control interface shown in the graduation demonstration"></a></td>
   </tr>
   <tr>
     <td align="center"><b>Working prototype</b><br>Full-length preview of the original demonstration</td>
-    <td align="center"><b>App control</b><br>Click the image to open the original video</td>
+    <td align="center"><b>App control</b><br>Click the image to play the original video</td>
   </tr>
 </table>
 
@@ -30,14 +30,14 @@ The project explores a neck-support and massage application as an **academic pro
 
 ## Demo videos
 
-These four MP4 files were extracted directly from slides 12–13 of my graduation presentation. The original video and audio tracks are preserved. Click a title to open a video; download it if your browser does not offer playback.
+These four MP4 files were extracted directly from slides 12–13 of my graduation presentation. The original video and audio tracks are preserved. Click a title to play it in the [demo gallery](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/). Original MP4 downloads are also available there.
 
 | Demonstration | Duration | What to look for |
 |---|---:|---|
-| [Pneumatic prototype](docs/assets/pneumatic-demo.mp4) | 24 s | Soft structure, tubing, controller and physical operation |
-| [System walkthrough](docs/assets/system-demo.mp4) | 25 s | Pumps, bench wiring and OLED status |
-| [App control](docs/assets/app-control-demo.mp4) | 11 s | Control interface and connected pump |
-| [Bench demonstration](docs/assets/bench-demo.mp4) | 23 s | Inflatable structure and controller setup |
+| [Pneumatic prototype](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#pneumatic-demo) | 24 s | Soft structure, tubing, controller and physical operation |
+| [System walkthrough](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#system-demo) | 25 s | Pumps, bench wiring and OLED status |
+| [App control](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#app-control-demo) | 11 s | Control interface and connected pump |
+| [Bench demonstration](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#bench-demo) | 23 s | Inflatable structure and controller setup |
 
 ## System design
 

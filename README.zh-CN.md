@@ -2,7 +2,7 @@
 
 **基于 STM32 的多腔气囊、气泵与电磁阀控制系统**
 
-[English](README.md) · [实机视频](#实机视频) · [固件入口](9-4%20串口收发文本数据包/User/main.c)
+[English](README.md) · [在线演示](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/) · [固件入口](9-4%20串口收发文本数据包/User/main.c)
 
 这是我在深圳大学完成的 **2024 年本科毕业设计**，围绕多腔软体气囊，集成 STM32 控制、充气与抽气气泵、电磁阀、气压采集，以及本地和手机端交互。
 
@@ -10,8 +10,8 @@
 
 <table>
   <tr>
-    <td align="center"><a href="docs/assets/pneumatic-demo.mp4"><img src="docs/assets/pneumatic-preview.gif" width="270" alt="毕业设计气动软体机器人原始实机演示"></a></td>
-    <td align="center"><a href="docs/assets/app-control-demo.mp4"><img src="docs/assets/app-control.jpg" width="270" alt="毕业设计手机端控制界面"></a></td>
+    <td align="center"><a href="https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#pneumatic-demo"><img src="docs/assets/pneumatic-preview.gif" width="270" alt="毕业设计气动软体机器人原始实机演示"></a></td>
+    <td align="center"><a href="https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#app-control-demo"><img src="docs/assets/app-control.jpg" width="270" alt="毕业设计手机端控制界面"></a></td>
   </tr>
   <tr>
     <td align="center"><b>气动软体机器人实机</b><br>原始演示视频的完整动图预览</td>
@@ -30,14 +30,14 @@
 
 ## 实机视频
 
-以下 4 段视频直接提取自毕业答辩 PPT 第 12–13 页，保留原始画面与音轨。点击标题打开视频；若浏览器不支持直接播放，可下载查看。
+以下 4 段视频直接提取自毕业答辩 PPT 第 12–13 页，保留原始画面与音轨。点击标题可在[演示页](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/)直接播放，也可下载原始 MP4。
 
 | 视频 | 时长 | 展示内容 |
 |---|---:|---|
-| [气动软体机器人演示](docs/assets/pneumatic-demo.mp4) | 24 秒 | 软体气囊、管路、控制板与实机运行 |
-| [系统实物演示](docs/assets/system-demo.mp4) | 25 秒 | 气泵、接线与 OLED 状态 |
-| [手机端控制演示](docs/assets/app-control-demo.mp4) | 11 秒 | 控制界面与连接的气泵 |
-| [台架联调演示](docs/assets/bench-demo.mp4) | 23 秒 | 气囊与控制系统的台架布置 |
+| [气动软体机器人演示](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#pneumatic-demo) | 24 秒 | 软体气囊、管路、控制板与实机运行 |
+| [系统实物演示](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#system-demo) | 25 秒 | 气泵、接线与 OLED 状态 |
+| [手机端控制演示](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#app-control-demo) | 11 秒 | 控制界面与连接的气泵 |
+| [台架联调演示](https://wanju-boop.github.io/Embedded-Pneumatic-Pump-and-Valve-Control-System-/#bench-demo) | 23 秒 | 气囊与控制系统的台架布置 |
 
 ## 系统设计
 
